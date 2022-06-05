@@ -22,10 +22,9 @@ print(sum)
 for x in range(2018,0, -4):
     print(x)
 
-
-for x in range(2,9,3):
-    if x % 3 ==0:
-        num=x+3
-        print(num)
-        
+lownum=2
+highnum=10
+for x in range(lownum, highnum):
+    if x % 3 == 0:
+        print(x)
         
