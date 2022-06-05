@@ -6,4 +6,4 @@ def randInt(min=0,max=100):
     return rand_num
 
 for i in range(100):
-    print(randInt(min=50,max=99))
+    print(randInt(min=2,max=-50))
