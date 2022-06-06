@@ -28,5 +28,5 @@ class BankAccount:
 
 account1=BankAccount()
 account2=BankAccount()
-account1.deposit(50).deposit(50).deposit(100).yield_interest().display_account_info()
+account1.deposit(50).deposit(50).deposit(100).withdraw(20).yield_interest().display_account_info()
 account2.deposit(500).deposit(50).withdraw(50).withdraw(50).withdraw(50).withdraw(50).yield_interest().display_account_info()
