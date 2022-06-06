@@ -59,10 +59,8 @@ dojo = {
 }
 
 def printInfo(some_dict):
-    print(len(some_dict['locations']), "locations")
-    for locations in some_dict['locations']:
-        print(locations)
-    print("")
-    print(len(some_dict['instructors']), "instructors")
-    for instructors in some_dict['instructors']:
-        print(instructors)
+    for x in some_dict:
+        print(len(some_dict[x]),x.upper())
+        for i in some_dict[x]:
+            print(i)
+printInfo(dojo)
