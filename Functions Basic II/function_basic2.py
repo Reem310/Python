@@ -28,8 +28,7 @@ def values_greater_than_second(arr):
         elif arr[x]>arr[1]:
             arr2.append(arr[x])
     print(len(arr2))
-    return arr2
-       
+    return arr2  
 print(values_greater_than_second([5,2,3,2,1,4]))   
 print(values_greater_than_second([5]))
 
