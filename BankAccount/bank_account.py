@@ -1,6 +1,6 @@
 class BankAccount:
     # don't forget to add some default values for these parameters!
-    def __init__(self, int_rate, balance=0):
+    def __init__(self, int_rate= 0.01, balance=0):
         self.int_rate=int_rate
         self.balance=balance
 
@@ -26,9 +26,7 @@ class BankAccount:
             self.balance=self.int_rate*self.balance
             return self
 
-user1=BankAccount(10,-1)
-user2=BankAccount(5,100)
-user1.withdraw(20)
-user1.deposit(20)
-user1.yield_interest()
-user1.display_account_info()
+account1=BankAccount()
+account2=BankAccount()
+account1.deposit(50).deposit(50).deposit(100).yield_interest().display_account_info()
+account2.deposit(500).deposit(50).withdraw(50).withdraw(50).withdraw(50).withdraw(50).yield_interest().display_account_info()
