@@ -10,7 +10,7 @@ class Animals:
 
 #a display_info method that shows the animal's name, health, and happiness.
     def display(self):
-        print(f"Name:{self.name}, Type:{self.type} Health:{self.health}, Happiness:{self.happiness}")
+        print(f"Name:{self.name}, Type:{self.type}, Health:{self.health}, Happiness:{self.happiness}")
         return self
 
     def feed(self):
@@ -39,14 +39,14 @@ class Tiger(Animals):
         
 
 
-abd=Frog("abd")
-abd.feed().display()
+Frogy=Frog("Frogy")
+Frogy.feed().display()
 
-abc=Owl("abc")
-abc.feed().display()
+Hedwig=Owl("Hedwig")
+Hedwig.feed().display()
 
-aba=Tiger("aba")
-aba.feed().display() 
+Tigger=Tiger("Tigger")
+Tigger.feed().display() 
 
 
 
